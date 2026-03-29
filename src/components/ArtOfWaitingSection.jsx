@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom'
-import Caffe_phin from '../assets/cafe_phin.jpg'
-
+import Caffe_phin from '../assets/cafe_phin.jpg';
 export default function ArtOfWaitingSection() {
   return (
     <section className="py-32 bg-surface">
@@ -35,16 +33,16 @@ export default function ArtOfWaitingSection() {
               </p>
               <p>
                 Từng hạt cà phê Robusta và Arabica được tuyển chọn từ vùng đất đỏ
-                Bazan màu mỡ, trải qua quy trình rang thủ công hoàn toàn để giữ trọn vẹn hương vị nồng nàn, đắng
+                Bazan màu mỡ, trải qua quy trình rang thủ cônghoàn toàn để giữ trọn vẹn hương vị nồng nàn, đắng
                 dịu và hậu vị ngọt sâu lắng đọng.
               </p>
-              <Link
+              <a
                 className="inline-flex items-center gap-2 text-primary font-bold border-b-2 border-primary pb-1 mt-4 hover:text-secondary hover:border-secondary transition-all"
-                to="/cau-chuyen"
+                href="#"
               >
                 Tìm hiểu quy trình rang xay{' '}
                 <span className="material-symbols-outlined">chevron_right</span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

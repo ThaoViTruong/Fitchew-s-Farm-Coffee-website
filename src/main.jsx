@@ -19,10 +19,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/cau-chuyen" element={<Story />} />
           <Route path="/thuc-don" element={<Menu />} />
           <Route path="/san-pham" element={<Product />} />
-          <Route path="/trai-nghiem" element={<Experience />} />
           <Route path="/lien-he" element={<Contact />} />
           <Route path="/ho-tro/:topic" element={<Support />} />
-
         </Route>
       </Routes>
     </BrowserRouter>
