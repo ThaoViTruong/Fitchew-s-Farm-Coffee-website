@@ -7,7 +7,6 @@ import Home from './pages/Home'
 import Story from './pages/Story'
 import Menu from './pages/Menu'
 import Product from './pages/Product'
-import Experience from './pages/Experience'
 import Contact from './pages/Contact'
 import Support from './pages/Support'
 
